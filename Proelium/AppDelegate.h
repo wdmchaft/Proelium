@@ -7,9 +7,17 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "PolycodeView.h"
+#include "ProeliumApp.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> 
+{
+    PolycodeView *mainView;
+    ProeliumApp *app;
+    NSTimer *timer;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet PolycodeView *mainView;
 
 @end
