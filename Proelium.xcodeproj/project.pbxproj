@@ -27,12 +27,12 @@
 		80CA248B149D280F00C7802B /* PolycodeView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 80CA248A149D280F00C7802B /* PolycodeView.mm */; };
 		80CA248D149D286C00C7802B /* default.pak in Resources */ = {isa = PBXBuildFile; fileRef = 80CA248C149D286C00C7802B /* default.pak */; };
 		80CA2499149D297F00C7802B /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CA248E149D297F00C7802B /* Enemy.cpp */; };
-		80CA249A149D297F00C7802B /* green_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CA2490149D297F00C7802B /* green_texture.png */; };
 		80CA249B149D297F00C7802B /* Mob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CA2491149D297F00C7802B /* Mob.cpp */; };
 		80CA249C149D297F00C7802B /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CA2493149D297F00C7802B /* Player.cpp */; };
 		80CA249D149D297F00C7802B /* ProeliumApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 80CA2496149D297F00C7802B /* ProeliumApp.mm */; };
-		80CA249E149D297F00C7802B /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CA2497149D297F00C7802B /* stone.png */; };
-		80CA249F149D297F00C7802B /* Wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CA2498149D297F00C7802B /* Wood.png */; };
+		80F73478149D344A00B27B8C /* green_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73475149D344A00B27B8C /* green_texture.png */; };
+		80F73479149D344A00B27B8C /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73476149D344A00B27B8C /* stone.png */; };
+		80F7347A149D344A00B27B8C /* Wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73477149D344A00B27B8C /* Wood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,15 +65,15 @@
 		80CA248C149D286C00C7802B /* default.pak */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.pak; sourceTree = "<group>"; };
 		80CA248E149D297F00C7802B /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
 		80CA248F149D297F00C7802B /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
-		80CA2490149D297F00C7802B /* green_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_texture.png; sourceTree = "<group>"; };
 		80CA2491149D297F00C7802B /* Mob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mob.cpp; sourceTree = "<group>"; };
 		80CA2492149D297F00C7802B /* Mob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mob.h; sourceTree = "<group>"; };
 		80CA2493149D297F00C7802B /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		80CA2494149D297F00C7802B /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		80CA2495149D297F00C7802B /* ProeliumApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProeliumApp.h; sourceTree = "<group>"; };
 		80CA2496149D297F00C7802B /* ProeliumApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ProeliumApp.mm; sourceTree = "<group>"; };
-		80CA2497149D297F00C7802B /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone.png; sourceTree = "<group>"; };
-		80CA2498149D297F00C7802B /* Wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wood.png; sourceTree = "<group>"; };
+		80F73475149D344A00B27B8C /* green_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_texture.png; sourceTree = "<group>"; };
+		80F73476149D344A00B27B8C /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone.png; sourceTree = "<group>"; };
+		80F73477149D344A00B27B8C /* Wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wood.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 		80CA2443149D25A900C7802B /* Proelium */ = {
 			isa = PBXGroup;
 			children = (
-				80F73473149D2CF200B27B8C /* Textures */,
+				80F73474149D344A00B27B8C /* Textures */,
 				80CA248E149D297F00C7802B /* Enemy.cpp */,
 				80CA248F149D297F00C7802B /* Enemy.h */,
 				80CA2491149D297F00C7802B /* Mob.cpp */,
@@ -181,14 +181,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		80F73473149D2CF200B27B8C /* Textures */ = {
+		80F73474149D344A00B27B8C /* Textures */ = {
 			isa = PBXGroup;
 			children = (
-				80CA2490149D297F00C7802B /* green_texture.png */,
-				80CA2497149D297F00C7802B /* stone.png */,
-				80CA2498149D297F00C7802B /* Wood.png */,
+				80F73475149D344A00B27B8C /* green_texture.png */,
+				80F73476149D344A00B27B8C /* stone.png */,
+				80F73477149D344A00B27B8C /* Wood.png */,
 			);
-			name = Textures;
+			path = Textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,9 +245,9 @@
 				80CA244E149D25A900C7802B /* Credits.rtf in Resources */,
 				80CA2454149D25A900C7802B /* MainMenu.xib in Resources */,
 				80CA248D149D286C00C7802B /* default.pak in Resources */,
-				80CA249A149D297F00C7802B /* green_texture.png in Resources */,
-				80CA249E149D297F00C7802B /* stone.png in Resources */,
-				80CA249F149D297F00C7802B /* Wood.png in Resources */,
+				80F73478149D344A00B27B8C /* green_texture.png in Resources */,
+				80F73479149D344A00B27B8C /* stone.png in Resources */,
+				80F7347A149D344A00B27B8C /* Wood.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
