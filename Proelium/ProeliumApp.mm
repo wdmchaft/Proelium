@@ -55,19 +55,19 @@ void ProeliumApp::handleEvent(Event *e) {
 		switch(e->getEventCode()) {
 			case InputEvent::EVENT_KEYUP:
 				switch (inputEvent->key) {
-					case KEY_UP:
+					case Polycode::KEY_w:
                         scene->getDefaultCamera()->setPositionX(scene->getDefaultCamera()->getPosition().x - 1);
                         player->model->setPositionX(player->model->getPosition().x - 1);
                         break;
-					case KEY_DOWN:
+					case Polycode::KEY_s:
                         scene->getDefaultCamera()->setPositionX(scene->getDefaultCamera()->getPosition().x + 1);
                         player->model->setPositionX(player->model->getPosition().x + 1);
                         break;
-                    case KEY_LEFT:
+                    case Polycode::KEY_a:
                         scene->getDefaultCamera()->setPositionZ(scene->getDefaultCamera()->getPosition().z + 1);
                         player->model->setPositionZ(player->model->getPosition().z + 1);
                         break;
-					case KEY_RIGHT:
+					case Polycode::KEY_d:
                         scene->getDefaultCamera()->setPositionZ(scene->getDefaultCamera()->getPosition().z - 1);
                         player->model->setPositionZ(player->model->getPosition().z - 1);
                         break;	
