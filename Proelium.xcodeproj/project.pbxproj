@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80CA243E149D25A900C7802B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA243D149D25A900C7802B /* Cocoa.framework */; };
+		80CA2448149D25A900C7802B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CA2446149D25A900C7802B /* InfoPlist.strings */; };
+		80CA244A149D25A900C7802B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CA2449149D25A900C7802B /* main.m */; };
+		80CA244E149D25A900C7802B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 80CA244C149D25A900C7802B /* Credits.rtf */; };
+		80CA2451149D25A900C7802B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CA2450149D25A900C7802B /* AppDelegate.m */; };
+		80CA2454149D25A900C7802B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80CA2452149D25A900C7802B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80CA2439149D25A800C7802B /* Proelium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proelium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CA243D149D25A900C7802B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		80CA2440149D25A900C7802B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		80CA2441149D25A900C7802B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		80CA2442149D25A900C7802B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80CA2445149D25A900C7802B /* Proelium-Info.plist */ = {isa = PBXFileReference; path = "Proelium-Info.plist"; sourceTree = "<group>"; };
+		80CA2447149D25A900C7802B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CA2449149D25A900C7802B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80CA244B149D25A900C7802B /* Proelium-Prefix.pch */ = {isa = PBXFileReference; path = "Proelium-Prefix.pch"; sourceTree = "<group>"; };
+		80CA244D149D25A900C7802B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		80CA244F149D25A900C7802B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		80CA2450149D25A900C7802B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80CA2453149D25A900C7802B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CA2436149D25A800C7802B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA243E149D25A900C7802B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CA242E149D25A800C7802B = {
+			isa = PBXGroup;
+			children = (
+				80CA2443149D25A900C7802B /* Proelium */,
+				80CA243C149D25A800C7802B /* Frameworks */,
+				80CA243A149D25A800C7802B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80CA243A149D25A800C7802B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CA2439149D25A800C7802B /* Proelium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80CA243C149D25A800C7802B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80CA243D149D25A900C7802B /* Cocoa.framework */,
+				80CA243F149D25A900C7802B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80CA243F149D25A900C7802B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80CA2440149D25A900C7802B /* AppKit.framework */,
+				80CA2441149D25A900C7802B /* CoreData.framework */,
+				80CA2442149D25A900C7802B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		80CA2443149D25A900C7802B /* Proelium */ = {
+			isa = PBXGroup;
+			children = (
+				80CA244F149D25A900C7802B /* AppDelegate.h */,
+				80CA2450149D25A900C7802B /* AppDelegate.m */,
+				80CA2452149D25A900C7802B /* MainMenu.xib */,
+				80CA2444149D25A900C7802B /* Supporting Files */,
+			);
+			path = Proelium;
+			sourceTree = "<group>";
+		};
+		80CA2444149D25A900C7802B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80CA2445149D25A900C7802B /* Proelium-Info.plist */,
+				80CA2446149D25A900C7802B /* InfoPlist.strings */,
+				80CA2449149D25A900C7802B /* main.m */,
+				80CA244B149D25A900C7802B /* Proelium-Prefix.pch */,
+				80CA244C149D25A900C7802B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CA2438149D25A800C7802B /* Proelium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CA2457149D25A900C7802B /* Build configuration list for PBXNativeTarget "Proelium" */;
+			buildPhases = (
+				80CA2435149D25A800C7802B /* Sources */,
+				80CA2436149D25A800C7802B /* Frameworks */,
+				80CA2437149D25A800C7802B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Proelium;
+			productName = Proelium;
+			productReference = 80CA2439149D25A800C7802B /* Proelium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CA2430149D25A800C7802B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 80CA2433149D25A800C7802B /* Build configuration list for PBXProject "Proelium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80CA242E149D25A800C7802B;
+			productRefGroup = 80CA243A149D25A800C7802B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CA2438149D25A800C7802B /* Proelium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CA2437149D25A800C7802B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA2448149D25A900C7802B /* InfoPlist.strings in Resources */,
+				80CA244E149D25A900C7802B /* Credits.rtf in Resources */,
+				80CA2454149D25A900C7802B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CA2435149D25A800C7802B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA244A149D25A900C7802B /* main.m in Sources */,
+				80CA2451149D25A900C7802B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80CA2446149D25A900C7802B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CA2447149D25A900C7802B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80CA244C149D25A900C7802B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CA244D149D25A900C7802B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		80CA2452149D25A900C7802B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CA2453149D25A900C7802B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80CA2455149D25A900C7802B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		80CA2456149D25A900C7802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		80CA2458149D25A900C7802B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Proelium/Proelium-Prefix.pch";
+				INFOPLIST_FILE = "Proelium/Proelium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80CA2459149D25A900C7802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Proelium/Proelium-Prefix.pch";
+				INFOPLIST_FILE = "Proelium/Proelium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CA2433149D25A800C7802B /* Build configuration list for PBXProject "Proelium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA2455149D25A900C7802B /* Debug */,
+				80CA2456149D25A900C7802B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CA2457149D25A900C7802B /* Build configuration list for PBXNativeTarget "Proelium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA2458149D25A900C7802B /* Debug */,
+				80CA2459149D25A900C7802B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80CA2430149D25A800C7802B /* Project object */;
+}
