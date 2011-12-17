@@ -16,14 +16,6 @@
 		80CA2471149D263300C7802B /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA246A149D260E00C7802B /* OpenAL.framework */; };
 		80CA2472149D263300C7802B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA246B149D260E00C7802B /* OpenGL.framework */; };
 		80CA2473149D263300C7802B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA243D149D25A900C7802B /* Cocoa.framework */; };
-		80CA2481149D268A00C7802B /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA2479149D268A00C7802B /* libfreetype.a */; };
-		80CA2482149D268A00C7802B /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA247A149D268A00C7802B /* libogg.a */; };
-		80CA2483149D268A00C7802B /* libphysfs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA247B149D268A00C7802B /* libphysfs.a */; };
-		80CA2484149D268A00C7802B /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA247C149D268A00C7802B /* libpng.a */; };
-		80CA2485149D268A00C7802B /* libPolyCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA247D149D268A00C7802B /* libPolyCore.a */; };
-		80CA2486149D268A00C7802B /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA247E149D268A00C7802B /* libvorbis.a */; };
-		80CA2487149D268A00C7802B /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA247F149D268A00C7802B /* libvorbisfile.a */; };
-		80CA2488149D268A00C7802B /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA2480149D268A00C7802B /* libz.a */; };
 		80CA248B149D280F00C7802B /* PolycodeView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 80CA248A149D280F00C7802B /* PolycodeView.mm */; };
 		80CA248D149D286C00C7802B /* default.pak in Resources */ = {isa = PBXBuildFile; fileRef = 80CA248C149D286C00C7802B /* default.pak */; };
 		80CA2499149D297F00C7802B /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80CA248E149D297F00C7802B /* Enemy.cpp */; };
@@ -33,6 +25,15 @@
 		80F73478149D344A00B27B8C /* green_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73475149D344A00B27B8C /* green_texture.png */; };
 		80F73479149D344A00B27B8C /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73476149D344A00B27B8C /* stone.png */; };
 		80F7347A149D344A00B27B8C /* Wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73477149D344A00B27B8C /* Wood.png */; };
+		80F7347C149D3A7700B27B8C /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80F7347B149D3A7700B27B8C /* Projectile.cpp */; };
+		80F73486149D3B4600B27B8C /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F7347E149D3B4600B27B8C /* libfreetype.a */; };
+		80F73487149D3B4600B27B8C /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F7347F149D3B4600B27B8C /* libogg.a */; };
+		80F73488149D3B4600B27B8C /* libphysfs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F73480149D3B4600B27B8C /* libphysfs.a */; };
+		80F73489149D3B4600B27B8C /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F73481149D3B4600B27B8C /* libpng.a */; };
+		80F7348A149D3B4600B27B8C /* libPolyCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F73482149D3B4600B27B8C /* libPolyCore.a */; };
+		80F7348B149D3B4600B27B8C /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F73483149D3B4600B27B8C /* libvorbis.a */; };
+		80F7348C149D3B4600B27B8C /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F73484149D3B4600B27B8C /* libvorbisfile.a */; };
+		80F7348D149D3B4600B27B8C /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F73485149D3B4600B27B8C /* libz.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,14 +53,6 @@
 		80CA246A149D260E00C7802B /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		80CA246B149D260E00C7802B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		80CA246E149D262300C7802B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		80CA2479149D268A00C7802B /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = Proelium/libfreetype.a; sourceTree = "<group>"; };
-		80CA247A149D268A00C7802B /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = Proelium/libogg.a; sourceTree = "<group>"; };
-		80CA247B149D268A00C7802B /* libphysfs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libphysfs.a; path = Proelium/libphysfs.a; sourceTree = "<group>"; };
-		80CA247C149D268A00C7802B /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = Proelium/libpng.a; sourceTree = "<group>"; };
-		80CA247D149D268A00C7802B /* libPolyCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPolyCore.a; path = Proelium/libPolyCore.a; sourceTree = "<group>"; };
-		80CA247E149D268A00C7802B /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbis.a; path = Proelium/libvorbis.a; sourceTree = "<group>"; };
-		80CA247F149D268A00C7802B /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisfile.a; path = Proelium/libvorbisfile.a; sourceTree = "<group>"; };
-		80CA2480149D268A00C7802B /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = Proelium/libz.a; sourceTree = "<group>"; };
 		80CA2489149D280F00C7802B /* PolycodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolycodeView.h; sourceTree = "<group>"; };
 		80CA248A149D280F00C7802B /* PolycodeView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PolycodeView.mm; sourceTree = "<group>"; };
 		80CA248C149D286C00C7802B /* default.pak */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.pak; sourceTree = "<group>"; };
@@ -74,6 +67,16 @@
 		80F73475149D344A00B27B8C /* green_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_texture.png; sourceTree = "<group>"; };
 		80F73476149D344A00B27B8C /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone.png; sourceTree = "<group>"; };
 		80F73477149D344A00B27B8C /* Wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wood.png; sourceTree = "<group>"; };
+		80F7347B149D3A7700B27B8C /* Projectile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Projectile.cpp; sourceTree = "<group>"; };
+		80F7347D149D3A8100B27B8C /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
+		80F7347E149D3B4600B27B8C /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = Proelium/lib/libfreetype.a; sourceTree = "<group>"; };
+		80F7347F149D3B4600B27B8C /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = Proelium/lib/libogg.a; sourceTree = "<group>"; };
+		80F73480149D3B4600B27B8C /* libphysfs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libphysfs.a; path = Proelium/lib/libphysfs.a; sourceTree = "<group>"; };
+		80F73481149D3B4600B27B8C /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = Proelium/lib/libpng.a; sourceTree = "<group>"; };
+		80F73482149D3B4600B27B8C /* libPolyCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPolyCore.a; path = Proelium/lib/libPolyCore.a; sourceTree = "<group>"; };
+		80F73483149D3B4600B27B8C /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbis.a; path = Proelium/lib/libvorbis.a; sourceTree = "<group>"; };
+		80F73484149D3B4600B27B8C /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisfile.a; path = Proelium/lib/libvorbisfile.a; sourceTree = "<group>"; };
+		80F73485149D3B4600B27B8C /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = Proelium/lib/libz.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +88,14 @@
 				80CA2471149D263300C7802B /* OpenAL.framework in Frameworks */,
 				80CA2472149D263300C7802B /* OpenGL.framework in Frameworks */,
 				80CA2473149D263300C7802B /* Cocoa.framework in Frameworks */,
-				80CA2481149D268A00C7802B /* libfreetype.a in Frameworks */,
-				80CA2482149D268A00C7802B /* libogg.a in Frameworks */,
-				80CA2483149D268A00C7802B /* libphysfs.a in Frameworks */,
-				80CA2484149D268A00C7802B /* libpng.a in Frameworks */,
-				80CA2485149D268A00C7802B /* libPolyCore.a in Frameworks */,
-				80CA2486149D268A00C7802B /* libvorbis.a in Frameworks */,
-				80CA2487149D268A00C7802B /* libvorbisfile.a in Frameworks */,
-				80CA2488149D268A00C7802B /* libz.a in Frameworks */,
+				80F73486149D3B4600B27B8C /* libfreetype.a in Frameworks */,
+				80F73487149D3B4600B27B8C /* libogg.a in Frameworks */,
+				80F73488149D3B4600B27B8C /* libphysfs.a in Frameworks */,
+				80F73489149D3B4600B27B8C /* libpng.a in Frameworks */,
+				80F7348A149D3B4600B27B8C /* libPolyCore.a in Frameworks */,
+				80F7348B149D3B4600B27B8C /* libvorbis.a in Frameworks */,
+				80F7348C149D3B4600B27B8C /* libvorbisfile.a in Frameworks */,
+				80F7348D149D3B4600B27B8C /* libz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,14 +122,14 @@
 		80CA243C149D25A800C7802B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				80CA2479149D268A00C7802B /* libfreetype.a */,
-				80CA247A149D268A00C7802B /* libogg.a */,
-				80CA247B149D268A00C7802B /* libphysfs.a */,
-				80CA247C149D268A00C7802B /* libpng.a */,
-				80CA247D149D268A00C7802B /* libPolyCore.a */,
-				80CA247E149D268A00C7802B /* libvorbis.a */,
-				80CA247F149D268A00C7802B /* libvorbisfile.a */,
-				80CA2480149D268A00C7802B /* libz.a */,
+				80F7347E149D3B4600B27B8C /* libfreetype.a */,
+				80F7347F149D3B4600B27B8C /* libogg.a */,
+				80F73480149D3B4600B27B8C /* libphysfs.a */,
+				80F73481149D3B4600B27B8C /* libpng.a */,
+				80F73482149D3B4600B27B8C /* libPolyCore.a */,
+				80F73483149D3B4600B27B8C /* libvorbis.a */,
+				80F73484149D3B4600B27B8C /* libvorbisfile.a */,
+				80F73485149D3B4600B27B8C /* libz.a */,
 				80CA246E149D262300C7802B /* IOKit.framework */,
 				80CA246A149D260E00C7802B /* OpenAL.framework */,
 				80CA246B149D260E00C7802B /* OpenGL.framework */,
@@ -159,6 +162,8 @@
 				80CA2496149D297F00C7802B /* ProeliumApp.mm */,
 				80CA2495149D297F00C7802B /* ProeliumApp.h */,
 				80CA2444149D25A900C7802B /* Supporting Files */,
+				80F7347B149D3A7700B27B8C /* Projectile.cpp */,
+				80F7347D149D3A8100B27B8C /* Projectile.h */,
 			);
 			path = Proelium;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				80CA249B149D297F00C7802B /* Mob.cpp in Sources */,
 				80CA249C149D297F00C7802B /* Player.cpp in Sources */,
 				80CA249D149D297F00C7802B /* ProeliumApp.mm in Sources */,
+				80F7347C149D3A7700B27B8C /* Projectile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +365,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Proelium\"",
+					"\"$(SRCROOT)/Proelium/lib\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
@@ -384,6 +391,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Proelium\"",
+					"\"$(SRCROOT)/Proelium/lib\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
