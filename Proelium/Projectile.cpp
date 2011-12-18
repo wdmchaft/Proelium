@@ -12,13 +12,15 @@
 
 Projectile::Projectile(Direction::Enum direction)
 {
+    movmentRate = 2.0f;
+    
     Number size = 0.2f;
     model = new ScenePrimitive(ScenePrimitive::TYPE_BOX, size, size, size);
     this->direction = direction;
     
     //In micro seconds?
     //Arbitraty value for testing atm.
-    lifetimeRemaining = 100;
+    lifetimeRemaining = 250;
 }
 
 

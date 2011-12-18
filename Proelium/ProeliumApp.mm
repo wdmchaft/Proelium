@@ -52,8 +52,7 @@ ProeliumApp::~ProeliumApp() {
 }
 
 bool ProeliumApp::Update() {
-    Number elapsed = core->getElapsed();
-    player->Update(elapsed, scene);
+    player->Update(core->getElapsed(), scene);
     return core->Update();
 }
 void ProeliumApp::handleEvent(Event *e) {

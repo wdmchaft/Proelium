@@ -49,29 +49,24 @@ void Mob::Update(Number elapsed, Scene *scene)
                 vector<Projectile*>::iterator iter = activeProjectiles.begin() + i;
                 scene->removeEntity(activeProjectiles[i]->model);
                 
-                //Are all these calls necessary?
-                activeProjectiles[i] = NULL;
                 delete activeProjectiles[i];
+                activeProjectiles[i] = NULL;
                 activeProjectiles.erase(iter);
                 return;
             }
             
-            //TODO: Incorportate movmentRate and elapsed to have a consitnent speed regardless of frametime
-            //TODO: Move this variable to the Projectile class for better polymorphsim
-            float movmentRate = 0.01;
             
             if (activeProjectiles[i]->direction == Direction::Left) {
-                activeProjectiles[i]->model->setPositionZ(activeProjectiles[i]->model->getPosition().z + movmentRate);    
+                activeProjectiles[i]->model->setPositionZ(activeProjectiles[i]->model->getPosition().z + (activeProjectiles[i]->movmentRate * elapsed));    
             }
             else if (activeProjectiles[i]->direction == Direction::Right) {
-                activeProjectiles[i]->model->setPositionZ(activeProjectiles[i]->model->getPosition().z - movmentRate);
+                activeProjectiles[i]->model->setPositionZ(activeProjectiles[i]->model->getPosition().z - (activeProjectiles[i]->movmentRate * elapsed));
             }
             else if (activeProjectiles[i]->direction == Direction::Up) {
-                activeProjectiles[i]->model->setPositionX(activeProjectiles[i]->model->getPosition().x - movmentRate);
-                
+                activeProjectiles[i]->model->setPositionX(activeProjectiles[i]->model->getPosition().x - (activeProjectiles[i]->movmentRate * elapsed));
             }
             else if (activeProjectiles[i]->direction == Direction::Down) {
-                activeProjectiles[i]->model->setPositionX(activeProjectiles[i]->model->getPosition().x + movmentRate);
+                activeProjectiles[i]->model->setPositionX(activeProjectiles[i]->model->getPosition().x + (activeProjectiles[i]->movmentRate * elapsed));
             }
             else
             {

@@ -31,6 +31,7 @@ public:
     Polycode::ScenePrimitive* model;
     Direction::Enum direction;
     
+    float movmentRate;
     int lifetimeRemaining;
     
 };
