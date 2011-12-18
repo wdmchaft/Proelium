@@ -6,6 +6,7 @@
 //  Copyright (c) 2011 Cameron Deans. All rights reserved.
 //
 
+
 #ifndef PolycodeTemplate_Enemy_h
 #define PolycodeTemplate_Enemy_h
 

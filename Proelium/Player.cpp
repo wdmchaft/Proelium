@@ -1,10 +1,12 @@
 //
 //  Player.cpp
-//  PolycodeTemplate
+//  Proelium
 //
-//  Created by Cameron Deans on 15/12/2011.
-//  Copyright (c) 2011 Tomatogon. All rights reserved.
+//  Created by Cameron Deans on 16/12/2011.
+//  Copyright (c) 2011 Cameron Deans. All rights reserved.
 //
+
 
 #include "Player.h"
 
+//Try and move movment and Shotting controls over to here

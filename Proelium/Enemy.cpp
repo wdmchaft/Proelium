@@ -8,6 +8,8 @@
 
 #include "Enemy.h"
 
+//Add AI here
+
 Enemy::Enemy()
 {
     //Without a Texture enemey will be red for debugging purposes

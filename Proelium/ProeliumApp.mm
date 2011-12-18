@@ -52,6 +52,8 @@ ProeliumApp::~ProeliumApp() {
 }
 
 bool ProeliumApp::Update() {
+    Number elapsed = core->getElapsed();
+    player->Update(elapsed, scene);
     return core->Update();
 }
 void ProeliumApp::handleEvent(Event *e) {
@@ -77,6 +79,18 @@ void ProeliumApp::handleEvent(Event *e) {
                         scene->getDefaultCamera()->setPositionZ(scene->getDefaultCamera()->getPosition().z - 1);
                         player->model->setPositionZ(player->model->getPosition().z - 1);
                         break;	
+                    case Polycode::KEY_UP:
+                        scene->addEntity(player->ShootProjectile(Direction::Up));
+                        break;
+                    case Polycode::KEY_DOWN:
+                        scene->addEntity(player->ShootProjectile(Direction::Down));
+                        break;
+                    case Polycode::KEY_LEFT:
+                        scene->addEntity(player->ShootProjectile(Direction::Left));
+                        break;
+                    case Polycode::KEY_RIGHT:
+                        scene->addEntity(player->ShootProjectile(Direction::Right));
+                        break;
 				}
                 break;			
 		}
