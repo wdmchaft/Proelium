@@ -1,9 +1,9 @@
 //
 //  Mob.cpp
-//  PolycodeTemplate
+//  Proelium
 //
 //  Created by Cameron Deans on 16/12/2011.
-//  Copyright (c) 2011 Tomatogon. All rights reserved.
+//  Copyright (c) 2011 Cameron Deans. All rights reserved.
 //
 
 #include "Mob.h"

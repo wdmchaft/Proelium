@@ -1,6 +1,11 @@
 //
-// Polycode template. Write your code here.
+//  ProeliumApp.h
+//  Proelium
 //
+//  Created by Cameron Deans on 16/12/2011.
+//  Copyright (c) 2011 Cameron Deans. All rights reserved.
+//
+
 
 #import "PolycodeView.h"
 #include "Polycode.h"
